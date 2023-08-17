@@ -7,3 +7,8 @@ variable "ami" {
   type: string
   default = "ami-2757f631"
 }
+
+variable "name" {
+  type = string
+  default = "sbr-test"
+}
