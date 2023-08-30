@@ -12,3 +12,13 @@ variable "name" {
   type = string
   default = "sbr-test"
 }
+
+variable "test-map" {
+  type = map
+  default = {"name"="shabbir","city"={"name"="hyd","zip"="500001"}}
+}
+
+variable "test-list" {
+  type = list
+  default = ["one","two"]
+}
