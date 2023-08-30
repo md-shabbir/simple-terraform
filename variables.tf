@@ -15,7 +15,7 @@ variable "name" {
 
 variable "test-map" {
   type = map
-  default = {"name"="shabbir","city"={"name"="hyd","zip"="500001"}}
+  default = {"name"="shabbir","city"="hyd"}
 }
 
 variable "test-list" {
