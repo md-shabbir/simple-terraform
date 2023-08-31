@@ -24,7 +24,7 @@ variable "test-list" {
 }
 
 variable "test-bool" {
-  type = boolean
+  type = bool
   default = true
 }
 
