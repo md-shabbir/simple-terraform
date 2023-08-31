@@ -33,7 +33,7 @@ variable "test-number" {
   default = 123
 }
 
-variable "test-number" {
+variable "test-number-2" {
   type = number
   default = 123.45
 }
