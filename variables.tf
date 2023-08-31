@@ -22,3 +22,19 @@ variable "test-list" {
   type = list
   default = ["one","two"]
 }
+
+variable "test-bool" {
+  type = boolean
+  default = true
+}
+
+variable "test-number" {
+  type = number
+  default = 123
+}
+
+variable "test-number" {
+  type = number
+  default = 123.45
+}
+
